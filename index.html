@@ -3,9 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/img/favicon.png" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/src/css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+      integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+      integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/src/css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Medical Website</title>
   </head>
@@ -14,7 +26,7 @@
     <header class="wrapper">
       <nav>
         <div class="logo">
-          <img src="img/favicon.png" alt="icon">
+          <i class="ri-stethoscope-line"></i>
           <p>Medical</p>
         </div>
         <div class="icons">
@@ -26,9 +38,13 @@
     <section>
       <div class="home-content">
         <div class="fst__section">
-          <h1 class="home__title"><span>Get Quick</span> <br> Medical Service</h1>
+          <h1 class="home__title">
+            <span>Get Quick</span> <br />
+            Medical Service
+          </h1>
           <p class="home__description">
-            Get your medical service from a certified doctor and health professional.
+            Get your medical service from a certified doctor and health
+            professional.
           </p>
           <a href="#" class="btn">Get Started</a>
         </div>
@@ -45,11 +61,66 @@
               <p>Contact</p>
             </a>
           </div>
-          <img src="img/home-img.png" alt="home-img">
+          <img src="img/home-img.png" alt="home-img" />
         </div>
       </div>
     </section>
     <!-- End header section -->
+    <section class="vaccine">
+      <div class="vaccine__details">
+        <h1>
+          Vaccine Injections <br />
+          <span>Delivery Service</span>
+        </h1>
+        <p>
+          We provide door-to-door vaccine and injection delivery services,
+          available to all segments throughout the city.
+        </p>
+      </div>
+      <div class="delivery__subtitle">
+        <div class="deivery__subsection">
+          <div class="deivery__subsection__icon">
+            <i class="ri-home-fill"></i>
+          </div>
+          <p>
+            Home Service <br />
+            <span>Fast home vaccination service.</span>
+          </p>
+        </div>
+        <div class="deivery__subsection">
+          <div class="deivery__subsection__icon">
+            <i class="ri-time-fill"></i>
+          </div>
+          <p>
+            1 Hour Service <br />
+            <span>Super easy and quick service for patients.</span>
+          </p>
+        </div>
+        <div class="deivery__subsection">
+          <div class="deivery__subsection__icon">
+            <i class="ri-syringe-fill"></i>
+          </div>
+          <p>
+            Better Quality <br />
+            <span>The Best Medicines for Health.</span>
+          </p>
+        </div>
+      </div>
+      <div class="request_vaccination">
+        <h2>
+          Request <br />
+          Vaccination
+        </h2>
+        <div class="point">
+          <p><span>324</span> Patients</p>
+        </div>
+        <img src="/img/delivery-img.png" alt="delivery" />
+        <button class="button__dark">
+          Request
+          <i class="ri-arrow-right-s-line button__dark__icon"></i>
+        </button>
+      </div>
+    </section>
     <script type="module" src="/src/js/main.js"></script>
   </body>
 </html>
