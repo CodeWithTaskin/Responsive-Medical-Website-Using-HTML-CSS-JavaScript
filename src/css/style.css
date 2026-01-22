@@ -176,13 +176,13 @@ nav {
   align-items: center;
 }
 
-.vaccine__details {
+.details {
   text-align: center;
   color: var(--dark-blue-color);
   margin-bottom: 2em;
 }
 
-.vaccine__details h1 span {
+.details h1 span {
   font-weight: 400;
 }
 
@@ -255,20 +255,20 @@ nav {
   left: -25px;
 }
 
-.point{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10em;
-    height: 4em;
-    margin-left: 3em;
-    border-radius: 1.2em;
-    background-color: #00000024;
-    color: #fff;
+.point {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10em;
+  height: 4em;
+  margin-left: 3em;
+  border-radius: 1.2em;
+  background-color: #00000024;
+  color: #fff;
 }
 
-.point p span{
-    font-weight: 700;
+.point p span {
+  font-weight: 700;
 }
 
 .button__dark {
@@ -295,4 +295,109 @@ nav {
 
 .button__dark__icon {
   font-size: 27px;
+}
+
+.medical_service {
+  display: flex;
+  justify-content: center;
+}
+
+.medical_service__section {
+  padding: 1.2em 1.2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-blue-color);
+  margin-top: 2em;
+  border-radius: 1.5em;
+  width: 20.4em;
+  height: 60em;
+}
+
+.medical_service__title {
+  color: var(--blue-color);
+}
+
+.medical_service__numbers {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.medical_service__details {
+  color: #fff;
+  text-align: center;
+  border-right: solid var(--blue-color);
+}
+
+.medical_service__details:last-child {
+  border-right: none;
+  padding-left: 5px;
+}
+
+.medical_service__details p {
+  text-align: center;
+  font-weight: 300;
+  font-size: 0.8em;
+}
+
+.medical_service__details span {
+  display: inline-block;
+  margin: 1px 10px 1px 10px;
+  padding: 5px 10px;
+  font-weight: 800;
+  font-size: 2em;
+}
+
+.medical_service__img {
+  width: 16em;
+  height: 26em;
+  object-fit: cover;
+
+}
+
+.medical_service__img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2em;
+  margin-top: 1.5em;
+}
+
+.medical_service__btn a{
+  display: flex;
+  color: var(--blue-color);
+  justify-content: center;
+  align-items: center;
+  gap: .5em;
+  text-decoration: none;
+  margin-top: 1em;
+  font-weight: 600;
+}
+
+.medical_service__btn a i{
+  font-size: 20px;
+}
+
+.arrow_to_top {
+  position: fixed;
+  z-index: 99999;
+  top: 42em;
+  left: 19.2em;
+  background-color: #fff;
+  width: 2.2em;
+  height: 2.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5em;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.arrow_to_top i {
+  font-size: 1.5em;
+  color: var(--dark-blue-color);
 }
